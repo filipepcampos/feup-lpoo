@@ -1,12 +1,12 @@
 public class AreaStringOutputter {
-    AreaAggregator aggregator;
+    SumProvider provider;
 
-    public AreaStringOutputter(AreaAggregator aggregator){
-        this.aggregator = aggregator;
+    public AreaStringOutputter(SumProvider provider){
+        this.provider = provider;
     }
 
     public String output(){
-        String output = String.format("%f", aggregator.sum());
+        String output = String.format("Sum of areas: %f", provider.sum());
         return output;
     }
 }

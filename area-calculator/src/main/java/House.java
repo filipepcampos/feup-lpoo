@@ -1,4 +1,4 @@
-public class House implements hasArea{
+public class House implements hasArea {
     double area;
 
     public House(double area){
