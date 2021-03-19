@@ -21,14 +21,4 @@ public class AreaAggregator {
         }
         return sum;
     }
-
-    public void outputXML(){
-        System.out.print("<area>");
-        System.out.print(sum());
-        System.out.println("</area>");
-    }
-
-    public String output() {
-        return "Sum of areas: " + sum();
-    }
 }
