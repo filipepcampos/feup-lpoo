@@ -4,6 +4,7 @@ public class Application {
         aggregator.addShape(new Circle(5.2));
         aggregator.addShape(new Square(2));
         aggregator.addShape(new Square(7.82));
+        aggregator.addShape(new Triangle(10.2, 5.8));
         AreaStringOutputter stringOutputter = new AreaStringOutputter(aggregator);
         AreaXMLOutputter xmlOutputter = new AreaXMLOutputter(aggregator);
 

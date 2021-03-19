@@ -1,4 +1,4 @@
-public class Square extends Shape{
+public class Square implements Shape{
     double side;
     public Square(double side){
         this.side = side;
@@ -6,5 +6,9 @@ public class Square extends Shape{
 
     public double getSide() {
         return side;
+    }
+
+    public double getArea() {
+        return side * side;
     }
 }
