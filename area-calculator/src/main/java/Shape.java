@@ -1,3 +1,3 @@
-public interface Shape {
-    double getArea();
+public interface Shape extends BasicShape {
+    double getArea() throws NoAreaException;
 }
